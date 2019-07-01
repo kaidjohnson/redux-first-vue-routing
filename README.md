@@ -6,7 +6,7 @@
 
 # redux-first-vue-routing
 
-A tiny Vue plugin that connects components with Redux, an implementation of [redux-first-routing](https://github.com/mksarge/redux-first-routing).
+A tiny Vue plugin that connects Vue Router with Redux, an implementation of [redux-first-routing](https://github.com/mksarge/redux-first-routing).
 
 New to Redux? [Start Here](https://redux.js.org/introduction/getting-started)
 
