@@ -4,8 +4,7 @@ module.exports = {
 		'**/src/**/*.js',
 		'!**/src/**/*.spec.js'
 	],
-	coverageDirectory: 'build/coverage',
-	coverageReporters: ['html', 'text', 'text-summary'],
+	coverageReporters: ['html', 'lcov', 'text', 'text-summary'],
 	moduleFileExtensions: ['js'],
 	testMatch: [
 		'**/src/**/*.spec.js'
