@@ -23,6 +23,9 @@
     "tdd": "jest --watch"
   },
   "author": "kaidjohnson@gmail.com",
+  "repository": "https://github.com/kaidjohnson/redux-first-vue-routing",
+  "homepage": "https://github.com/kaidjohnson/redux-first-vue-routing/blob/master/README.md",
+  "bugs": "https://github.com/kaidjohnson/redux-first-vue-routing/issues",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.4.5",
