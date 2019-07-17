@@ -1,6 +1,6 @@
 {
   "name": "redux-first-vue-routing",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Keep your Vue Router state in your Redux store",
   "keywords": [
     "redux",
