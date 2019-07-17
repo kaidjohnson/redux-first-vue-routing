@@ -13,6 +13,7 @@
     "src/action-creators.js",
     "src/action-types.json",
     "src/middleware.js",
+    "src/plugin.js",
     "src/reducer.js"
   ],
   "main": "src/index.js",
