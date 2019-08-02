@@ -8,5 +8,14 @@ module.exports = {
 		filename: 'redux-first-vue-routing.min.js',
 		library: 'ReduxFirstVueRouting',
 		libraryTarget: 'umd'
+	},
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				loader: 'babel-loader'
+			}
+		]
 	}
 };
