@@ -20,6 +20,7 @@
   "module": "src/index.js",
   "scripts": {
     "build": "webpack",
+    "commit": "npx git-cz",
     "lint": "eslint './src/**/*.js'",
     "test": "jest",
     "tdd": "jest --watch"
@@ -35,6 +36,7 @@
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.8.0",
+    "babel-loader": "8.0.6",
     "eslint": "6.0.1",
     "eslint-plugin-jest": "22.10.0",
     "jest": "24.8.0",
