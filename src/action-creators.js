@@ -1,4 +1,4 @@
-import { BACK, FORWARD, GO, LOCATION_CHANGE, PUSH, REPLACE } from './action-types.json';
+import { BACK, FORWARD, GO, LOCATION_CHANGE, PUSH, REPLACE, UPDATE } from './action-types.json';
 
 /**
  * @param {Object} obj
@@ -69,4 +69,15 @@ export const forward = () => ({
 export const locationChange = (payload) => ({
 	type: LOCATION_CHANGE,
 	payload: omit(payload, 'matched')
+});
+
+/**
+ * @param {Object} parameters
+ * @param {Function} [onComplete]
+ * @param {Function} [onAbort]
+ * @returns {Object}
+ */
+export const update = (...payload) => ({
+	type: UPDATE,
+	payload
 });

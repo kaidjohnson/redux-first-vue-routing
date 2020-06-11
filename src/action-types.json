@@ -4,5 +4,6 @@
   "GO": "@@redux-first-vue-router/GO",
   "BACK": "@@redux-first-vue-router/BACK",
   "FORWARD": "@@redux-first-vue-router/FORWARD",
-  "LOCATION_CHANGE": "@@redux-first-vue-router/LOCATION_CHANGE"
+  "LOCATION_CHANGE": "@@redux-first-vue-router/LOCATION_CHANGE",
+  "UPDATE": "@@redux-first-vue-router/UPDATE"
 }

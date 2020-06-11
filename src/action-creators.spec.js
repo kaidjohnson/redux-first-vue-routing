@@ -1,4 +1,4 @@
-import { back, forward, go, locationChange, push, replace } from './action-creators.js';
+import { back, forward, go, locationChange, push, replace, update } from './action-creators.js';
 
 describe('action-creators', () => {
 	describe('back', () => {
@@ -68,6 +68,15 @@ describe('action-creators', () => {
 		it('returns an FSA with a namespaced type of "REPLACE" and a payload of provided arguments', () => {
 			expect(replace('foo', 'bar', 'baz')).toEqual({
 				type: '@@redux-first-vue-router/REPLACE',
+				payload: ['foo', 'bar', 'baz']
+			});
+		});
+	});
+
+	describe('update', () => {
+		it('returns an FSA with a namespaced type of "UPDATE" and a payload of provided arguments', () => {
+			expect(update('foo', 'bar', 'baz')).toEqual({
+				type: '@@redux-first-vue-router/UPDATE',
 				payload: ['foo', 'bar', 'baz']
 			});
 		});
