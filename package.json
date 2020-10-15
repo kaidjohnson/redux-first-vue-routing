@@ -20,7 +20,7 @@
   "module": "src/index.js",
   "scripts": {
     "build": "webpack",
-    "commit": "npx git-cz",
+    "commit": "pnpx git-cz",
     "lint": "eslint './src/**/*.js'",
     "test": "jest",
     "tdd": "jest --watch"

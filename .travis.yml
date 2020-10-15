@@ -1,29 +1,33 @@
 language: node_js
 node_js: 10
-install:
-- npm ci
 cache:
+  npm: false
   directories:
-  - "$HOME/.npm"
+  - "$HOME/.pnpm-store"
+before_install:
+  - curl -L https://unpkg.com/@pnpm/self-installer | node
+  - pnpm config set store-dir ~/.pnpm-store
+install:
+  - pnpm i --frozen-lockfile
 jobs:
   include:
   - stage: lint
-    script: npm run lint
+    script: pnpm run lint
   - stage: test
     before_script:
     - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
       > ./cc-test-reporter
     - chmod +x ./cc-test-reporter
     - "./cc-test-reporter before-build"
-    script: npm run test
+    script: pnpm run test
     after_script:
     - "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
   - stage: build
     if: tag IS blank
-    script: npm run build
+    script: pnpm run build
   - stage: release
     if: tag IS present
-    script: npm run build
+    script: pnpm run build
     deploy:
       provider: npm
       email: "$NPM_EMAIL"
