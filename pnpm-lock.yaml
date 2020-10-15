@@ -3,11 +3,11 @@ devDependencies:
   '@babel/preset-env': 7.9.0_@babel+core@7.9.0
   '@vue/test-utils': 1.0.0-beta.32_d81dac297579cfd5597855dabf60f13b
   babel-core: 7.0.0-bridge.0_@babel+core@7.9.0
-  babel-jest: 25.1.0_@babel+core@7.9.0
+  babel-jest: 25.5.1_@babel+core@7.9.0
   babel-loader: 8.1.0_@babel+core@7.9.0+webpack@5.1.0
   eslint: 6.8.0
   eslint-plugin-jest: 23.8.2_eslint@6.8.0
-  jest: 25.1.0
+  jest: 25.5.4
   vue: 2.6.11
   vue-template-compiler: 2.6.11
   webpack: 5.1.0_webpack-cli@4.0.0+webpack@5.1.0
@@ -1948,23 +1948,6 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==
-  /babel-jest/25.1.0_@babel+core@7.9.0:
-    dependencies:
-      '@babel/core': 7.9.0
-      '@jest/transform': 25.5.1
-      '@jest/types': 25.5.0
-      '@types/babel__core': 7.1.10
-      babel-plugin-istanbul: 6.0.0
-      babel-preset-jest: 25.5.0_@babel+core@7.9.0
-      chalk: 3.0.0
-      slash: 3.0.0
-    dev: true
-    engines:
-      node: '>= 8.3'
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    resolution:
-      integrity: sha512-tz0VxUhhOE2y+g8R2oFrO/2VtVjA1lkJeavlhExuRBg3LdNJY9gwQ+Vcvqt9+cqy71MCTJhewvTB7Qtnnr9SWg==
   /babel-jest/25.5.1_@babel+core@7.9.0:
     dependencies:
       '@babel/core': 7.9.0
@@ -4720,7 +4703,7 @@ packages:
       node: '>= 10.13.0'
     resolution:
       integrity: sha512-kTw66Dn4ZX7WpjZ7T/SUDgRhapFRKWmisVAF0Rv4Fu8SLFD7eLbqpLvbxVqYhSgaWa7I+bW7pHnbyfNsH6stug==
-  /jest/25.1.0:
+  /jest/25.5.4:
     dependencies:
       '@jest/core': 25.5.4
       import-local: 3.0.2
@@ -4730,7 +4713,7 @@ packages:
       node: '>= 8.3'
     hasBin: true
     resolution:
-      integrity: sha512-FV6jEruneBhokkt9MQk0WUFoNTwnF76CLXtwNMfsc0um0TlB/LG2yxUd0KqaFjEJ9laQmVWQWS0sG/t2GsuI0w==
+      integrity: sha512-hHFJROBTqZahnO+X+PMtT6G2/ztqAZJveGqz//FnWWHurizkD05PQGzRZOhF3XP6z7SJmL+5tCfW8qV06JypwQ==
   /js-beautify/1.13.0:
     dependencies:
       config-chain: 1.1.12
@@ -7590,11 +7573,11 @@ specifiers:
   '@babel/preset-env': 7.9.0
   '@vue/test-utils': 1.0.0-beta.32
   babel-core: 7.0.0-bridge.0
-  babel-jest: 25.1.0
+  babel-jest: 25.5.1
   babel-loader: 8.1.0
   eslint: 6.8.0
   eslint-plugin-jest: 23.8.2
-  jest: 25.1.0
+  jest: 25.5.4
   vue: 2.6.11
   vue-template-compiler: 2.6.11
   webpack: 5.1.0
