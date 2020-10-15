@@ -8,13 +8,9 @@
     "vue-router"
   ],
   "files": [
-    "dist/redux-first-vue-routing.min.js",
-    "src/index.js",
-    "src/action-creators.js",
-    "src/action-types.json",
-    "src/middleware.js",
-    "src/plugin.js",
-    "src/reducer.js"
+    "dist/",
+    "src/",
+    "!**/*.spec.js"
   ],
   "main": "src/index.js",
   "module": "src/index.js",
