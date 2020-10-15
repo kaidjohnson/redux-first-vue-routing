@@ -6,7 +6,7 @@ devDependencies:
   babel-jest: 25.1.0_@babel+core@7.9.0
   babel-loader: 8.1.0_@babel+core@7.9.0+webpack@5.1.0
   eslint: 6.8.0
-  eslint-plugin-jest: 23.8.2_eslint@6.8.0
+  eslint-plugin-jest: 23.20.0_eslint@6.8.0
   jest: 25.1.0
   vue: 2.6.11
   vue-template-compiler: 2.6.11
@@ -2982,7 +2982,7 @@ packages:
       source-map: 0.6.1
     resolution:
       integrity: sha512-qFcX0XJkdg+PB3xjZZG/wKSuT1PnQWx57+TVSjIMmILd2yC/6ByYElPwJnslDsuWuSAp4AwJGumarAAmJch5Kw==
-  /eslint-plugin-jest/23.8.2_eslint@6.8.0:
+  /eslint-plugin-jest/23.20.0_eslint@6.8.0:
     dependencies:
       '@typescript-eslint/experimental-utils': 2.34.0_eslint@6.8.0
       eslint: 6.8.0
@@ -2992,7 +2992,7 @@ packages:
     peerDependencies:
       eslint: '>=5'
     resolution:
-      integrity: sha512-xwbnvOsotSV27MtAe7s8uGWOori0nUsrXh2f1EnpmXua8sDfY6VZhHAhHg2sqK7HBNycRQExF074XSZ7DvfoFg==
+      integrity: sha512-+6BGQt85OREevBDWCvhqj1yYA4+BFK4XnRZSGJionuEYmcglMZYLNNBBemwzbqUAckURaHdJSBcjHPyrtypZOw==
   /eslint-scope/5.1.1:
     dependencies:
       esrecurse: 4.3.0
@@ -7593,7 +7593,7 @@ specifiers:
   babel-jest: 25.1.0
   babel-loader: 8.1.0
   eslint: 6.8.0
-  eslint-plugin-jest: 23.8.2
+  eslint-plugin-jest: 23.20.0
   jest: 25.1.0
   vue: 2.6.11
   vue-template-compiler: 2.6.11
