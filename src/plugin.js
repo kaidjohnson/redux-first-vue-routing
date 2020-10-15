@@ -7,7 +7,7 @@ import { locationChange } from './action-creators.js';
  * @param {Object} options.store
  */
 const install = (Vue, { router, store }) => {
-	router.afterEach((to, from) => {
+	router.afterEach((to) => {
 		store.dispatch(locationChange(to));
 	});
 };

@@ -1,6 +1,6 @@
-import { combineReducers, createStore, applyMiddleware } from 'redux';
-import { createLocalVue } from '@vue/test-utils';
+import { applyMiddleware, combineReducers, createStore } from 'redux';
 import { middleware, default as plugin, reducer } from './index.js';
+import { createLocalVue } from '@vue/test-utils';
 import VueRouter from 'vue-router';
 
 const routes = [
@@ -41,7 +41,7 @@ describe('redux-first-vue-routing', () => {
 			name: 'foo',
 			params: {},
 			path: '/foo',
-			query: {},
+			query: {}
 		});
 	});
 
@@ -70,6 +70,7 @@ describe('redux-first-vue-routing', () => {
 		router.push({ name: 'foo' });
 		router.push({ name: 'bar' });
 
-		expect(store.dispatch.mock.calls.length).toBe(1);
+		expect(router.history.current.name).toBe('foo');
+		expect(store.getState().router.name).toBe('foo');
 	});
 });
