@@ -1,15 +1,15 @@
 devDependencies:
   '@babel/core': 7.12.0
   '@babel/preset-env': 7.12.0_@babel+core@7.12.0
-  '@vue/test-utils': 1.0.0-beta.32_d81dac297579cfd5597855dabf60f13b
+  '@vue/test-utils': 1.1.0_ae554d8947d7e926b014dda25865f517
   babel-core: 7.0.0-bridge.0_@babel+core@7.12.0
   babel-jest: 26.5.2_@babel+core@7.12.0
   babel-loader: 8.1.0_@babel+core@7.12.0+webpack@5.1.0
   eslint: 7.11.0
   eslint-plugin-jest: 24.1.0_eslint@7.11.0
   jest: 26.5.3
-  vue: 2.6.11
-  vue-template-compiler: 2.6.11
+  vue: 2.6.12
+  vue-template-compiler: 2.6.12
   webpack: 5.1.0_webpack-cli@4.0.0+webpack@5.1.0
   webpack-cli: 4.0.0_webpack-cli@4.0.0+webpack@5.1.0
 lockfileVersion: 5.1
@@ -2200,19 +2200,19 @@ packages:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
     resolution:
       integrity: sha512-H2JMWhLaJNeaylSnMSQFEhT/S/FsJbebQALmoJxMPMxLtlVAMy2uJP/Z543n9IizhjRayLSqoInehCeNW9rWcw==
-  /@vue/test-utils/1.0.0-beta.32_d81dac297579cfd5597855dabf60f13b:
+  /@vue/test-utils/1.1.0_ae554d8947d7e926b014dda25865f517:
     dependencies:
       dom-event-types: 1.0.0
       lodash: 4.17.20
       pretty: 2.0.0
-      vue: 2.6.11
-      vue-template-compiler: 2.6.11
+      vue: 2.6.12
+      vue-template-compiler: 2.6.12
     dev: true
     peerDependencies:
       vue: 2.x
       vue-template-compiler: ^2.x
     resolution:
-      integrity: sha512-ywhe7PATMAk/ZGdsrcuQIliQusOyfe0OOHjKKCCERqgHh1g/kqPtmSMT5Jx4sErx53SYbNucr8QOK6/u5ianAw==
+      integrity: sha512-M+3jtVqNYIrvzO5gaxogre5a5+96h0hN/dXw+5Lj0t+dp6fAhYcUjpLrC9j9cEEkl2Rcuh/gKYRUmR5N4vcqPw==
   /@webassemblyjs/ast/1.9.0:
     dependencies:
       '@webassemblyjs/helper-module-context': 1.9.0
@@ -8135,17 +8135,17 @@ packages:
       node: '>= 0.10'
     resolution:
       integrity: sha512-LII3bXRFBZLlezoG5FfZVcXflZgWP/4dCwKtxd5ky9+LOtM4CS3bIRQsmR1KMnMW07jpE8fqR2lcxPZ+8sJIcw==
-  /vue-template-compiler/2.6.11:
+  /vue-template-compiler/2.6.12:
     dependencies:
       de-indent: 1.0.2
       he: 1.2.0
     dev: true
     resolution:
-      integrity: sha512-KIq15bvQDrcCjpGjrAhx4mUlyyHfdmTaoNfeoATHLAiWB+MU3cx4lOzMwrnUh9cCxy0Lt1T11hAFY6TQgroUAA==
-  /vue/2.6.11:
+      integrity: sha512-OzzZ52zS41YUbkCBfdXShQTe69j1gQDZ9HIX8miuC9C3rBCk9wIRjLiZZLrmX9V+Ftq/YEyv1JaVr5Y/hNtByg==
+  /vue/2.6.12:
     dev: true
     resolution:
-      integrity: sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
+      integrity: sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
   /w3c-hr-time/1.0.2:
     dependencies:
       browser-process-hrtime: 1.0.0
@@ -8514,14 +8514,14 @@ packages:
 specifiers:
   '@babel/core': 7.12.0
   '@babel/preset-env': 7.12.0
-  '@vue/test-utils': 1.0.0-beta.32
+  '@vue/test-utils': 1.1.0
   babel-core: 7.0.0-bridge.0
   babel-jest: 26.5.2
   babel-loader: 8.1.0
   eslint: 7.11.0
   eslint-plugin-jest: 24.1.0
   jest: 26.5.3
-  vue: 2.6.11
-  vue-template-compiler: 2.6.11
+  vue: 2.6.12
+  vue-template-compiler: 2.6.12
   webpack: 5.1.0
   webpack-cli: 4.0.0
