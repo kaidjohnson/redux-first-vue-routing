@@ -33,13 +33,13 @@ import ReduxFirstVueRouting from 'redux-first-vue-routing';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-// Create a Redux store, including the router reducer and the middleware.
-const store = createStore(rootReducer, {}, applyMiddleware(middleware));
-
 // Create the router instance
 const router = new VueRouter({
 	...
 });
+
+// Create a Redux store, including the router reducer and the middleware.
+const store = createStore(rootReducer, {}, applyMiddleware(middleware(router)));
 
 // Install the plugin
 Vue.use(ReduxFirstVueRouting, { router, store });

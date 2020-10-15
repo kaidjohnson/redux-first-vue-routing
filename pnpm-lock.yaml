@@ -8,7 +8,9 @@ devDependencies:
   eslint: 7.11.0
   eslint-plugin-jest: 24.1.0_eslint@7.11.0
   jest: 26.5.3
+  redux: 4.0.5
   vue: 2.6.12
+  vue-router: 3.4.6
   vue-template-compiler: 2.6.12
   webpack: 5.1.0_webpack-cli@4.0.0+webpack@5.1.0
   webpack-cli: 4.0.0_webpack-cli@4.0.0+webpack@5.1.0
@@ -6880,6 +6882,13 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-EJ4UNY/U1t2P/2k6oqotuX2Cc3T6nxJwsM0N0asT7dhrtH1ltUxDn4NalSYmPE2rCkVpcf/X6R0wDwcFpzhd4w==
+  /redux/4.0.5:
+    dependencies:
+      loose-envify: 1.4.0
+      symbol-observable: 1.2.0
+    dev: true
+    resolution:
+      integrity: sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
   /regenerate-unicode-properties/8.2.0:
     dependencies:
       regenerate: 1.4.1
@@ -7666,6 +7675,12 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-zoE5/e+dnEijk6ASB6/qrK+oYdm2do1hjoLWrqUC/8WEIW1gbxFcKuBof7sW8ArN6e+AYvsE8HBGiVRWL/F5CA==
+  /symbol-observable/1.2.0:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
   /symbol-tree/3.2.4:
     dev: true
     resolution:
@@ -8135,6 +8150,10 @@ packages:
       node: '>= 0.10'
     resolution:
       integrity: sha512-LII3bXRFBZLlezoG5FfZVcXflZgWP/4dCwKtxd5ky9+LOtM4CS3bIRQsmR1KMnMW07jpE8fqR2lcxPZ+8sJIcw==
+  /vue-router/3.4.6:
+    dev: true
+    resolution:
+      integrity: sha512-kaXnB3pfFxhAJl/Mp+XG1HJMyFqrL/xPqV7oXlpXn4AwMmm6VNgf0nllW8ksflmZANfI4kdo0bVn/FYSsAolPQ==
   /vue-template-compiler/2.6.12:
     dependencies:
       de-indent: 1.0.2
@@ -8521,7 +8540,9 @@ specifiers:
   eslint: 7.11.0
   eslint-plugin-jest: 24.1.0
   jest: 26.5.3
+  redux: 4.0.5
   vue: 2.6.12
+  vue-router: 3.4.6
   vue-template-compiler: 2.6.12
   webpack: 5.1.0
   webpack-cli: 4.0.0
