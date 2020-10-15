@@ -1,5 +1,5 @@
 import { createLocalVue } from '@vue/test-utils';
-import { LOCATION_CHANGE } from './action-types.json';
+import { LOCATION_CHANGE } from './action-types.js';
 import plugin from './plugin.js';
 
 const router = {

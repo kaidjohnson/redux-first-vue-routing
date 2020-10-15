@@ -1,4 +1,4 @@
-import { BACK, FORWARD, GO, LOCATION_CHANGE, PUSH, REPLACE } from './action-types.json';
+import { BACK, FORWARD, GO, LOCATION_CHANGE, PUSH, REPLACE } from './action-types.js';
 
 /**
  * @param {Object} obj

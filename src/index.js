@@ -1,4 +1,4 @@
-export { PUSH, REPLACE, GO, BACK, FORWARD, LOCATION_CHANGE } from './action-types.json';
+export { PUSH, REPLACE, GO, BACK, FORWARD, LOCATION_CHANGE } from './action-types.js';
 export { push, replace, go, back, forward, locationChange } from './action-creators.js';
 export { default as middleware } from './middleware.js';
 export { default as reducer } from './reducer.js';

@@ -1,4 +1,4 @@
-import { BACK, FORWARD, GO, PUSH, REPLACE } from './action-types.json';
+import { BACK, FORWARD, GO, PUSH, REPLACE } from './action-types.js';
 import middleware from './middleware.js';
 
 describe('middleware', () => {

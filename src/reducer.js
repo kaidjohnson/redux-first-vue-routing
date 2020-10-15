@@ -1,4 +1,4 @@
-import { LOCATION_CHANGE } from './action-types.json';
+import { LOCATION_CHANGE } from './action-types.js';
 
 export default (state = {}, action = {}) => {
 	switch (action.type) {

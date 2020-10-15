@@ -1,4 +1,4 @@
-import { LOCATION_CHANGE } from './action-types.json';
+import { LOCATION_CHANGE } from './action-types.js';
 import reducer from './reducer.js';
 
 describe('reducer', () => {
