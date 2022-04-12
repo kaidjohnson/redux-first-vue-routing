@@ -37,6 +37,9 @@ describe('redux-first-vue-routing', () => {
 		expect(store.getState().router).toEqual({
 			fullPath: '/foo',
 			hash: '',
+			matched: [
+				expect.objectContaining({ name: 'foo' })
+			],
 			meta: {},
 			name: 'foo',
 			params: {},
@@ -51,6 +54,7 @@ describe('redux-first-vue-routing', () => {
 		expect(store.getState().router).toEqual({
 			fullPath: '/',
 			hash: '',
+			matched: [],
 			meta: {},
 			name: 'bar',
 			params: {},
