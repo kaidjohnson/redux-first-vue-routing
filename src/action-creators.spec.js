@@ -31,26 +31,10 @@ describe('action-creators', () => {
 			to: 'foo'
 		};
 
-		const payloadMatched = {
-			to: 'foo',
-			matched: 'bar'
-		};
-
 		it('returns an FSA with a namespaced type of "LOCATION_CHANGE" and a payload of the first provided argument', () => {
 			expect(locationChange(payload)).toEqual({
 				type: '@@redux-first-vue-router/LOCATION_CHANGE',
-				payload: {
-					to: 'foo'
-				}
-			});
-		});
-
-		it('returns an FSA with a namespaced type of "LOCATION_CHANGE" and a payload of the first provided argument without the matched property', () => {
-			expect(locationChange(payloadMatched)).toEqual({
-				type: '@@redux-first-vue-router/LOCATION_CHANGE',
-				payload: {
-					to: 'foo'
-				}
+				payload
 			});
 		});
 	});
