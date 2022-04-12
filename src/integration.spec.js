@@ -60,7 +60,7 @@ describe('redux-first-vue-routing', () => {
 	});
 
 	it('does not store a canceled navigation', () => {
-		router.beforeResolve((to, from, next) => {
+		router.beforeEach((to, from, next) => {
 			if (to.matched.length) {
 				next();
 			}
