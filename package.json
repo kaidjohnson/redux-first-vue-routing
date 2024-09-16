@@ -32,7 +32,7 @@
     "@vue/test-utils": "1.1.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "26.5.2",
-    "babel-loader": "8.1.0",
+    "babel-loader": "9.2.1",
     "eslint": "7.11.0",
     "eslint-plugin-jest": "24.1.0",
     "jest": "26.5.3",
@@ -41,7 +41,7 @@
     "vue-router": "3.4.6",
     "vue-template-compiler": "2.6.12",
     "webpack": "5.1.1",
-    "webpack-cli": "4.0.0"
+    "webpack-cli": "5.1.4"
   },
   "peerDependencies": {
     "redux": "4.x",
