@@ -27,8 +27,8 @@
   "bugs": "https://github.com/kaidjohnson/redux-first-vue-routing/issues",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.12.10",
-    "@babel/preset-env": "7.12.10",
+    "@babel/core": "7.25.9",
+    "@babel/preset-env": "7.25.9",
     "@vue/test-utils": "1.1.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "26.5.2",
